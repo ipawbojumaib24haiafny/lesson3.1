@@ -1,0 +1,81 @@
+/* .component{
+width: 320px;
+height: 80px;
+background: rgb(70, 2, 2);
+border: 1px solid rgb(49, 6, 6);
+color: rgb(78, 146, 146);
+text-align: center;
+}
+
+
+.component a{
+color: rgb(42, 73, 63);
+}
+
+.component ::after{
+
+    content: "bye";
+}
+
+.circle{
+border-radius: 60px;
+width: 100px;
+height: 120px;
+border: 3px dotted rgb(77, 53, 53);
+background: rgb(138, 115, 81);
+
+
+} */
+
+
+.body{
+background: rgb(94, 80, 54);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.register{
+display: flex;
+flex-direction: column;
+margin: 20px;
+padding: 20px; ;
+}
+
+
+.register input{
+margin: 10px;
+outline: none;
+border-top-right-radius: 23px;
+border-bottom-left-radius: 23px;
+padding-left: 15px;
+border: 2px solid rgb(126, 96, 57);
+background: none;
+color: rgb(27, 77, 105);
+}
+
+
+.register input::placeholder{
+    color: bisque;
+}
+
+
+img{
+width: 100px;
+height: 100px;
+border-radius: 100px;
+border: 2px solid whitesmoke;
+box-shadow: 5px 5px 90px rgb(197, 2, 2);
+}
+
+
+button{
+width: 90px;
+height: 20px;
+border-radius: 20 px;
+border: 3px solid red;
+box-shadow: 6px 8px 70px;
+cursor: pointer;
+}
